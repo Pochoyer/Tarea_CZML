@@ -14,17 +14,17 @@
     "id": "bogota-ellipse",
     "name": "Bogotá (Elipse)",
     "position": { "cartographicDegrees": [-74.096, 4.629, 0] },
-    "ellipse": {
+    "rectangle": {
       "semiMinorAxis": 60000,
       "semiMajorAxis": 60000,
       "height": 0,
       "heightReference": "RELATIVE_TO_GROUND",
       "extrudedHeight": [
-        { "interval": "2025-08-01T00:00:00Z/2025-08-06T23:59:59Z", "number": 6000 },
-        { "interval": "2025-08-07T00:00:00Z/2025-08-13T23:59:59Z", "number": 12000 },
-        { "interval": "2025-08-14T00:00:00Z/2025-08-20T23:59:59Z", "number": 20000 },
-        { "interval": "2025-08-21T00:00:00Z/2025-08-26T23:59:59Z", "number": 40000 },
-        { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 80000 }
+        { "interval": "2025-08-01T00:00:00Z/2025-08-06T23:59:59Z", "number": 3000},
+        { "interval": "2025-08-07T00:00:00Z/2025-08-13T23:59:59Z", "number": 6000},
+        { "interval": "2025-08-14T00:00:00Z/2025-08-20T23:59:59Z", "number": 9000 },
+        { "interval": "2025-08-21T00:00:00Z/2025-08-26T23:59:59Z", "number": 12000 },
+        { "interval": "2025-08-27T00:00:00Z/2025-08-29T23:00:00Z", "number": 18000 }
       ],
       "extrudedHeightReference": "RELATIVE_TO_GROUND",
       "material": { "solidColor": { "color": { "rgba": [220, 20, 60, 140] } } },
@@ -36,7 +36,7 @@
   {
     "id": "cali-rectangle",
     "name": "Cali (Rectángulo)",
-    "rectangle": {
+    "circle": {
       "coordinates": {
         "wsenDegrees": [-76.63, 3.35, -76.43, 3.55]
       },
@@ -59,7 +59,7 @@
   {
     "id": "medellin-polygon",
     "name": "Medellín (Polígono)",
-   "polygon": {
+   "square": {
         "positions": {
             "cartographicDegrees": [
             -75.550631, 6.220920, 0,
@@ -89,7 +89,7 @@
   {
     "id": "barranquilla-polygon",
     "name": "Barranquilla (Polígono)",
-    "polygon": {
+    "ellipse": {
       "positions": {
         "cartographicDegrees": [
           -74.807, 10.968, 0,
